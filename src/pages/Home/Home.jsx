@@ -5,6 +5,8 @@ import Products from './Products';
 import TopProducts from './TopProducts';
 import Feature from './Feature';
 import Video from './Video';
+import Details from './Details';
+import Rooms from './Rooms';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <div className='md:w-10/12 mx-auto'><TopProducts></TopProducts></div>
             <div className='md:w-10/12 mx-auto'><Feature></Feature></div>
             <div className='md:w-10/12 mx-auto'><Video></Video></div>
+            <Details></Details>
+            <div className='md:w-10/12 mx-auto'><Rooms></Rooms></div>
         </div>
     );
 };

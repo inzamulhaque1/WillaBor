@@ -7,6 +7,8 @@ import Feature from './Feature';
 import Video from './Video';
 import Details from './Details';
 import Rooms from './Rooms';
+import Fourm from './Fourm';
+import Map from './Map';
 
 const Home = () => {
     return (
@@ -19,6 +21,8 @@ const Home = () => {
             <div className='md:w-10/12 mx-auto'><Video></Video></div>
             <Details></Details>
             <div className='md:w-10/12 mx-auto'><Rooms></Rooms></div>
+            <div className='md:w-10/12 mx-auto'><Fourm></Fourm></div>
+            <div className='md:w-10/12 mx-auto'><Map></Map></div>
         </div>
     );
 };

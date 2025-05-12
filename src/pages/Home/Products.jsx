@@ -45,22 +45,24 @@ const Products = () => {
   };
 
   return (
-    <div className="bg-[#f5f0eb] rounded-3xl p-6 md:p-12  mx-auto">
-      <p className="font-playfair text-3xl mb-8 text-center md:text-left w-10/12 mx-auto">
+    <div className="bg-[#f5f0eb] rounded-3xl p-6 md:p-12 mx-auto ">
+      <p className="font-playfair text-3xl mb-8 text-center md:text-left w-full md:w-10/12 mx-auto">
         Za co doceniają Nas Goście?
       </p>
 
-      <div className="grid md:grid-cols-2 gap-8 items-center bg-[#ECE6E1] p-4 rounded-3xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#ECE6E1] p-6 md:p-8 rounded-3xl">
         {/* Text Section */}
-        <div className="p-10 flex flex-col justify-between h-full">
+        <div className="flex flex-col justify-between h-full space-y-6">
           {/* Numbered Dots */}
-          <div className="flex space-x-2 mb-4">
+          <div className="flex flex-wrap gap-2 mb-2">
             {cards.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setActive(index)}
                 className={`text-sm w-6 h-6 rounded-full border ${
-                  active === index ? "bg-[#B48E7B] text-white" : "text-[#B48E7B]"
+                  active === index
+                    ? "bg-[#B48E7B] text-white"
+                    : "text-[#B48E7B]"
                 }`}
               >
                 {index + 1}
@@ -70,10 +72,12 @@ const Products = () => {
 
           <div>
             <h2 className="text-2xl font-semibold font-playfair mb-3">
-            {cards[active].title}
-          </h2>
+              {cards[active].title}
+            </h2>
 
-          <p className="text-sm text-gray-700 mb-6 max-w-md">{cards[active].desc}</p>
+            <p className="text-sm text-gray-700 mb-6 max-w-md">
+              {cards[active].desc}
+            </p>
           </div>
 
           <div className="flex gap-3">
@@ -90,15 +94,14 @@ const Products = () => {
               →
             </button>
           </div>
-
         </div>
 
         {/* Image Section */}
-        <div className="p-10">
+        <div className="p-0 md:p-10">
           <img
             src={cards[active].img}
             alt={cards[active].title}
-            className="rounded-4xl w-full object-cover  "
+            className="rounded-3xl w-full object-cover"
           />
         </div>
       </div>

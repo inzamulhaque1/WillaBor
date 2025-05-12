@@ -21,7 +21,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div className="md:flex p-4 sm:p-6 md:p-8 lg:p-10 relative">
+        <div className="md:flex hidden p-4 sm:p-6 md:p-8 lg:p-10 relative">
           <img className="-mr-20 sm:" src={tree} alt="Tree" />
           <div className="flex w-44 md:w-fit">
             <img className="mr-2 sm:mr-5" src={log} alt="Log" />

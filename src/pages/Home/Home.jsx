@@ -9,6 +9,9 @@ import Details from './Details';
 import Rooms from './Rooms';
 import Fourm from './Fourm';
 import Map from './Map';
+import Testimonial from './Testimonial';
+import BookNow from './BookNow';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -23,6 +26,9 @@ const Home = () => {
             <div className='md:w-10/12 mx-auto'><Rooms></Rooms></div>
             <div className='md:w-10/12 mx-auto'><Fourm></Fourm></div>
             <div className='md:w-10/12 mx-auto'><Map></Map></div>
+            <div className='md:w-10/12 mx-auto'><Testimonial></Testimonial></div>
+            <div className='md:w-10/12 mx-auto'><BookNow></BookNow></div>
+            <Footer></Footer>
         </div>
     );
 };

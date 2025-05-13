@@ -5,16 +5,39 @@
 
 @import "tailwindcss";
 
-body{
+body {
   background-color: #F4EFEB;
 }
 
 .font-playfair {
   font-family: "Playfair", serif;
 }
+
 .font-rouge {
-   font-family: "Imperial Script", cursive;
+  font-family: "Imperial Script", cursive;
 }
+
 .font-number {
-   font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
 }
+
+
+/*! banner arrow left to right  */
+
+@keyframes bounceX {
+
+  0%,
+  100% {
+    transform: -translateX(5);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.animate-bounceX {
+  animation: bounceX 1.5s infinite ease-in-out;
+}
+
+/* -------------------------------------------------- */

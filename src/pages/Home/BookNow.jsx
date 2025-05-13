@@ -39,7 +39,7 @@ const BookNow = () => {
                 />
               </div>
             </div>
-            <FaArrowRight className="text-[#B48E7B] hidden sm:inline-block" />
+            <FaArrowRight className="text-[#B48E7B] hidden sm:inline-block animate-bounceX" />
             <button className="bg-black text-[#e0c7ba] px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-200 transition-colors w-fit">
               Rezerwuj
             </button>

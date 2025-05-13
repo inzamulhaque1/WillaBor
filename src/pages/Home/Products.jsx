@@ -83,13 +83,13 @@ const Products = () => {
           <div className="flex gap-3">
             <button
               onClick={prevSlide}
-              className="border border-[#B48E7B] text-[#B48E7B] px-4 py-1 rounded-xl hover:bg-[#B48E7B] hover:text-white transition-all"
+              className="border animate-bounceX border-[#B48E7B] text-[#B48E7B] px-4 py-1 rounded-xl hover:bg-[#B48E7B] hover:text-white transition-all"
             >
               ←
             </button>
             <button
               onClick={nextSlide}
-              className="border border-[#B48E7B] text-[#B48E7B] px-4 py-1 rounded-xl hover:bg-[#B48E7B] hover:text-white transition-all"
+              className="border animate-bounceX border-[#B48E7B] text-[#B48E7B] px-4 py-1 rounded-xl hover:bg-[#B48E7B] hover:text-white transition-all"
             >
               →
             </button>

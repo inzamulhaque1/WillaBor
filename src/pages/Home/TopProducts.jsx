@@ -78,17 +78,17 @@ const TopProducts = () => {
             </h3>
             <p className="text-xs sm:text-sm text-gray-600">{room.desc}</p>
 
-            <div className="mt-auto mb-4 sm:mb-5">
+            <div className="mt-auto mb-4 sm:mb-5 ">
               <a
                 href="#"
-                className="text-xs sm:text-sm text-[#B48E7B] font-medium hover:underline"
+                className="text-xs sm:text-sm text-[#B48E7B] font-medium hover:underline "
               >
                 Czytaj więcej →
               </a>
             </div>
             <div className="flex justify-end">
-              <button className="relative cursor-pointer bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-3 sm:px-4 py-1 sm:py-2 rounded-xl shadow overflow-hidden group">
-                <span className="relative z-10 group-hover:text-white transition-colors duration-300">
+              <button className="relative  cursor-pointer bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-3 sm:px-4 py-1 sm:py-2 rounded-xl shadow overflow-hidden group">
+                <span className="relative z-10 group-hover:text-white transition-colors duration-300 ">
                   Rezerwuj →
                 </span>
                 <span className="absolute inset-0 flex items-center justify-center">

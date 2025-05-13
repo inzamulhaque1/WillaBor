@@ -71,8 +71,8 @@ const Testimonial = () => {
             innym odkryć wyjątkowy klimat Willi Bór!
           </p>
           <button className="bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-3 sm:px-4 py-1 sm:py-2 rounded shadow hover:bg-[#B48E7B] hover:text-white transition flex items-center mx-auto md:mx-0">
-            <FaGoogle className="mr-2 sm:mr-3" />
-            Rezerwuj →
+            <FaGoogle className="mr-2 sm:mr-3 " />
+            Rezerwuj <span className="ml-2 animate-bounceX">→</span>
           </button>
         </div>
 

@@ -64,7 +64,7 @@ const Feature = () => {
         </div>
 
         <div className="flex justify-center items-center p-2 sm:p-4">
-          <button className="bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-2 sm:px-3 py-1 sm:py-2 rounded-xs shadow hover:bg-[#B48E7B] hover:text-white transition">
+          <button className="bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-2 sm:px-3 py-1 sm:py-2 rounded-xs shadow hover:bg-[#B48E7B] hover:text-white transition animate-bounceX">
             →
           </button>
         </div>

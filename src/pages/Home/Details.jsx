@@ -143,7 +143,7 @@ const Details = () => {
           </div>
           
           {/* Right side - Location details card (only shows when a location is selected) */}
-          <div className="w-[500px] px-4 mt-8 md:mt-0">
+          <div className="md:w-[500px]  px-4 mt-8 md:mt-0">
             {selectedLocation && (
               <div 
                 className="bg-[#F0E2D7] rounded-lg shadow-md overflow-hidden"

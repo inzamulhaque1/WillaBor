@@ -87,8 +87,13 @@ const TopProducts = () => {
               </a>
             </div>
             <div className="flex justify-end">
-              <button className="bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-3 sm:px-4 py-1 sm:py-2 rounded-xs shadow hover:bg-[#B48E7B] hover:text-white transition">
-                Rezerwuj →
+              <button className="relative cursor-pointer bg-[#F0E2D7] text-xs sm:text-sm text-gray-800 px-3 sm:px-4 py-1 sm:py-2 rounded-xl shadow overflow-hidden group">
+                <span className="relative z-10 group-hover:text-white transition-colors duration-300">
+                  Rezerwuj →
+                </span>
+                <span className="absolute inset-0 flex items-center justify-center">
+                  <span className="absolute bg-black rounded-full scale-0 group-hover:scale-125 transition-transform duration-500 origin-center w-full h-0 pt-[100%]"></span>
+                </span>
               </button>
             </div>
           </div>
